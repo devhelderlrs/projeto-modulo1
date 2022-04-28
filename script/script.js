@@ -37,15 +37,15 @@ function decisaoZeus1(){
     while (true){
         if (opcao.toUpperCase() == 'A'){
             alert (`O que será que houve?`);
-            window.location.assign('./zeus/fimzeus1.html');
+            window.location.assign('../zeus/fimzeus1.html');
             break;
         } else if (opcao.toUpperCase() == 'B'){
             alert (`Zeus venceu?`);
-            window.location.assign('./zeus/fimzeus2.html');
+            window.location.assign('../zeus/fimzeus2.html');
             break;
         } else if (opcao.toUpperCase() == 'C'){
             alert (`Não consegue, né, Moisés?`);
-            window.location.assign('./zeus/zeus4.html');
+            window.location.assign('../zeus/zeus4.html');
             break;
         } else if (opcao.toUpperCase() != 'A' || 'B' || 'C' && null){
             alert (`Entrada inválida. Digite apenas as letras correspondentes às alternativas!`);
