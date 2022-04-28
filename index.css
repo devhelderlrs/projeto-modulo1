@@ -1,0 +1,70 @@
+*{
+    margin: 0; padding: 0;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-image: url(./imagens/img.bg.index.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+div{
+    max-width: 100%;
+    margin: 5% 10%;
+}
+
+.prologo{
+    background: rgba( 0, 0, 0, 0.5 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    color: white;
+    max-width: 80%;
+}
+
+h1{
+    text-shadow: 0 1px 10px black;
+    text-align: center;
+    color: rgb(240, 205, 49);
+    font-family: 'Segoe UI';
+    font-size: 60px;
+    padding: 20px;
+    margin: 30px;
+}
+
+p{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 15px;
+    text-shadow: 0 1px 1px black;
+    text-align: left;
+    padding: 20px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: flex-end;
+}
+
+button{
+    padding: 20px 40px;
+    background: rgba( 168, 129, 45, 0.5);
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    text-shadow: 0 1px 1px black;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    transition: 1s;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+}

@@ -1,0 +1,136 @@
+*{
+    margin: 0; padding: 0;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-image: url(../imagens/img.bg.index.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    align-items: center;
+    display: block;
+    max-width: 100%;
+}
+
+section{
+    align-items: center;
+    display: flex;
+    max-width: 100%;
+    margin: 5% 10%;
+}
+
+.bg{
+    margin: 5%;
+    max-width: 100%;
+    min-height: 30%;
+}
+
+.descricao{
+    display: flex;
+    flex-flow: row;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+}
+
+.descricao  h1{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 30px;
+}
+
+.char{
+    text-decoration: none;
+    display: block;
+    align-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    padding: 10px;
+    width: 20%;
+}
+
+.char a{
+    text-decoration: none;
+    color: white;
+}
+
+.char img{
+    width: 100%;
+    height: 350px;
+}
+
+
+.char p{
+    text-align: justify;
+}
+
+.char:hover{
+    position: relative;
+    transition: .3s ease-in-out;
+    top: -30px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px 5px rgba(255, 183, 49, 0.72);
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    color: black;
+}
+
+h1{
+    text-shadow: 0 1px 10px black;
+    text-align: center;
+    color: rgb(240, 205, 49);
+    font-family: 'Segoe UI';
+    font-size: 60px;
+    padding: 20px;
+    margin: 30px;
+}
+
+p{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 15px;
+    text-shadow: 0 1px 1px black;
+    text-align: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 5% 10%;
+}
+
+button{
+    padding: 20px 40px;
+    background: rgba( 168, 129, 45, 0.5);
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    text-shadow: 0 1px 1px black;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    transition: 1s;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+}
